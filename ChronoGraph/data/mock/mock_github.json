@@ -1,0 +1,683 @@
+{
+  "pull_requests": [
+    {
+      "id": "PR-016",
+      "title": "Migrate Redis cache to Memorystore",
+      "author": "vikram.singh",
+      "created_at": "2023-01-19T10:20:00",
+      "merged_at": "2023-01-21T13:20:00",
+      "status": "merged",
+      "repository": "infra",
+      "description": "Migrate Redis cache to Memorystore. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-01-19T12:20:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-01-19T16:20:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "security",
+        "monitoring",
+        "terraform"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/16"
+    },
+    {
+      "id": "PR-007",
+      "title": "Migrate CI/CD pipelines to GCP",
+      "author": "vikram.singh",
+      "created_at": "2023-01-25T12:56:00",
+      "merged_at": "2023-01-29T15:56:00",
+      "status": "merged",
+      "repository": "devops",
+      "description": "Migrate CI/CD pipelines to GCP. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-01-25T14:56:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-01-25T18:56:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "security",
+        "kubernetes",
+        "database"
+      ],
+      "url": "https://mock.github/infotact/devops/pull/7"
+    },
+    {
+      "id": "PR-010",
+      "title": "Refactor infrastructure modules",
+      "author": "arjun.mehta",
+      "created_at": "2023-02-01T16:05:00",
+      "merged_at": "2023-02-02T19:05:00",
+      "status": "merged",
+      "repository": "infra",
+      "description": "Refactor infrastructure modules. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-02-01T18:05:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-02-01T22:05:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "migration",
+        "gcp",
+        "security"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/10"
+    },
+    {
+      "id": "PR-011",
+      "title": "Implement DNS cutover automation",
+      "author": "priya.patel",
+      "created_at": "2023-02-23T18:13:00",
+      "merged_at": "2023-02-28T19:13:00",
+      "status": "merged",
+      "repository": "backend",
+      "description": "Implement DNS cutover automation. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-02-23T20:13:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-02-24T00:13:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "security"
+      ],
+      "url": "https://mock.github/infotact/backend/pull/11"
+    },
+    {
+      "id": "PR-012",
+      "title": "Create service account provisioning scripts",
+      "author": "arjun.mehta",
+      "created_at": "2023-03-06T11:07:00",
+      "merged_at": "2023-03-07T14:07:00",
+      "status": "merged",
+      "repository": "backend",
+      "description": "Create service account provisioning scripts. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-03-06T13:07:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-03-06T17:07:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "gcp",
+        "migration"
+      ],
+      "url": "https://mock.github/infotact/backend/pull/12"
+    },
+    {
+      "id": "PR-013",
+      "title": "Add VPC network configuration",
+      "author": "arjun.mehta",
+      "created_at": "2023-03-09T09:08:00",
+      "merged_at": null,
+      "status": "closed",
+      "repository": "infra",
+      "description": "Add VPC network configuration. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-03-09T11:08:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-03-09T15:08:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "kubernetes",
+        "terraform"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/13"
+    },
+    {
+      "id": "PR-025",
+      "title": "Implement cloud cost alert rules",
+      "author": "anand.kumar",
+      "created_at": "2023-03-11T13:58:00",
+      "merged_at": "2023-03-13T15:58:00",
+      "status": "merged",
+      "repository": "infra",
+      "description": "Implement cloud cost alert rules. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-03-11T15:58:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-03-11T19:58:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "gcp",
+        "migration"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/25"
+    },
+    {
+      "id": "PR-015",
+      "title": "Configure Pub/Sub messaging",
+      "author": "rahul.sharma",
+      "created_at": "2023-03-19T16:41:00",
+      "merged_at": "2023-03-23T20:41:00",
+      "status": "merged",
+      "repository": "devops",
+      "description": "Configure Pub/Sub messaging. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-03-19T18:41:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-03-19T22:41:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "monitoring",
+        "kubernetes"
+      ],
+      "url": "https://mock.github/infotact/devops/pull/15"
+    },
+    {
+      "id": "PR-005",
+      "title": "Implement GCP IAM policies",
+      "author": "neha.gupta",
+      "created_at": "2023-04-05T13:37:00",
+      "merged_at": "2023-04-07T17:37:00",
+      "status": "merged",
+      "repository": "infra",
+      "description": "Implement GCP IAM policies. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-04-05T15:37:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-04-05T19:37:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "terraform",
+        "security",
+        "migration"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/5"
+    },
+    {
+      "id": "PR-017",
+      "title": "Implement disaster recovery workflow",
+      "author": "anand.kumar",
+      "created_at": "2023-04-08T18:33:00",
+      "merged_at": null,
+      "status": "closed",
+      "repository": "devops",
+      "description": "Implement disaster recovery workflow. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-04-08T20:33:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-04-09T00:33:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "database"
+      ],
+      "url": "https://mock.github/infotact/devops/pull/17"
+    },
+    {
+      "id": "PR-019",
+      "title": "Add secret management integration",
+      "author": "rahul.sharma",
+      "created_at": "2023-04-13T15:46:00",
+      "merged_at": "2023-04-16T21:46:00",
+      "status": "merged",
+      "repository": "devops",
+      "description": "Add secret management integration. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-04-13T17:46:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-04-13T21:46:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "monitoring"
+      ],
+      "url": "https://mock.github/infotact/devops/pull/19"
+    },
+    {
+      "id": "PR-009",
+      "title": "Add Cloud Storage backup jobs",
+      "author": "anand.kumar",
+      "created_at": "2023-04-24T12:54:00",
+      "merged_at": "2023-04-29T18:54:00",
+      "status": "merged",
+      "repository": "platform",
+      "description": "Add Cloud Storage backup jobs. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-04-24T14:54:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-04-24T18:54:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "terraform",
+        "migration"
+      ],
+      "url": "https://mock.github/infotact/platform/pull/9"
+    },
+    {
+      "id": "PR-014",
+      "title": "Implement GCP logging integration",
+      "author": "neha.gupta",
+      "created_at": "2023-05-12T18:06:00",
+      "merged_at": null,
+      "status": "open",
+      "repository": "backend",
+      "description": "Implement GCP logging integration. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-05-12T20:06:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-05-13T00:06:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "database",
+        "monitoring",
+        "security"
+      ],
+      "url": "https://mock.github/infotact/backend/pull/14"
+    },
+    {
+      "id": "PR-021",
+      "title": "Add migration smoke test workflow",
+      "author": "vikram.singh",
+      "created_at": "2023-05-23T09:37:00",
+      "merged_at": null,
+      "status": "open",
+      "repository": "platform",
+      "description": "Add migration smoke test workflow. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-05-23T11:37:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-05-23T15:37:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "terraform",
+        "monitoring"
+      ],
+      "url": "https://mock.github/infotact/platform/pull/21"
+    },
+    {
+      "id": "PR-001",
+      "title": "Add GCP Terraform configuration",
+      "author": "priya.patel",
+      "created_at": "2023-05-29T14:46:00",
+      "merged_at": "2023-06-01T20:46:00",
+      "status": "merged",
+      "repository": "platform",
+      "description": "Add GCP Terraform configuration. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-05-29T16:46:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-05-29T20:46:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "migration"
+      ],
+      "url": "https://mock.github/infotact/platform/pull/1"
+    },
+    {
+      "id": "PR-006",
+      "title": "Add BigQuery analytics pipeline",
+      "author": "neha.gupta",
+      "created_at": "2023-06-15T10:40:00",
+      "merged_at": "2023-06-16T12:40:00",
+      "status": "merged",
+      "repository": "devops",
+      "description": "Add BigQuery analytics pipeline. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-06-15T12:40:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-06-15T16:40:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "kubernetes",
+        "gcp"
+      ],
+      "url": "https://mock.github/infotact/devops/pull/6"
+    },
+    {
+      "id": "PR-018",
+      "title": "Optimize Kubernetes deployment manifests",
+      "author": "priya.patel",
+      "created_at": "2023-06-17T17:46:00",
+      "merged_at": null,
+      "status": "closed",
+      "repository": "devops",
+      "description": "Optimize Kubernetes deployment manifests. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-06-17T19:46:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-06-17T23:46:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "database",
+        "kubernetes"
+      ],
+      "url": "https://mock.github/infotact/devops/pull/18"
+    },
+    {
+      "id": "PR-023",
+      "title": "Configure workload identity federation",
+      "author": "rahul.sharma",
+      "created_at": "2023-06-18T16:14:00",
+      "merged_at": "2023-06-19T19:14:00",
+      "status": "merged",
+      "repository": "platform",
+      "description": "Configure workload identity federation. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-06-18T18:14:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-06-18T22:14:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "database",
+        "security"
+      ],
+      "url": "https://mock.github/infotact/platform/pull/23"
+    },
+    {
+      "id": "PR-008",
+      "title": "Configure GKE autoscaling",
+      "author": "neha.gupta",
+      "created_at": "2023-07-10T11:56:00",
+      "merged_at": "2023-07-15T15:56:00",
+      "status": "merged",
+      "repository": "devops",
+      "description": "Configure GKE autoscaling. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-07-10T13:56:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-07-10T17:56:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "terraform",
+        "migration",
+        "kubernetes"
+      ],
+      "url": "https://mock.github/infotact/devops/pull/8"
+    },
+    {
+      "id": "PR-003",
+      "title": "Add Cloud Monitoring dashboards",
+      "author": "rahul.sharma",
+      "created_at": "2023-07-11T14:51:00",
+      "merged_at": null,
+      "status": "closed",
+      "repository": "infra",
+      "description": "Add Cloud Monitoring dashboards. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-07-11T16:51:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-07-11T20:51:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "monitoring",
+        "database",
+        "kubernetes"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/3"
+    },
+    {
+      "id": "PR-024",
+      "title": "Add production readiness checks",
+      "author": "arjun.mehta",
+      "created_at": "2023-07-16T18:39:00",
+      "merged_at": null,
+      "status": "open",
+      "repository": "infra",
+      "description": "Add production readiness checks. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-07-16T20:39:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-07-17T00:39:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "terraform",
+        "gcp",
+        "migration"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/24"
+    },
+    {
+      "id": "PR-002",
+      "title": "Configure Kubernetes manifests for GCP",
+      "author": "anand.kumar",
+      "created_at": "2023-07-21T17:56:00",
+      "merged_at": null,
+      "status": "open",
+      "repository": "platform",
+      "description": "Configure Kubernetes manifests for GCP. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-07-21T19:56:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-07-21T23:56:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "database",
+        "terraform"
+      ],
+      "url": "https://mock.github/infotact/platform/pull/2"
+    },
+    {
+      "id": "PR-004",
+      "title": "Create Cloud SQL migration scripts",
+      "author": "rahul.sharma",
+      "created_at": "2023-08-05T17:23:00",
+      "merged_at": null,
+      "status": "closed",
+      "repository": "infra",
+      "description": "Create Cloud SQL migration scripts. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-08-05T19:23:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-08-05T23:23:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "kubernetes"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/4"
+    },
+    {
+      "id": "PR-020",
+      "title": "Create infrastructure health checks",
+      "author": "rahul.sharma",
+      "created_at": "2023-08-25T16:04:00",
+      "merged_at": "2023-08-29T17:04:00",
+      "status": "merged",
+      "repository": "infra",
+      "description": "Create infrastructure health checks. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-08-25T18:04:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-08-25T22:04:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "database",
+        "migration"
+      ],
+      "url": "https://mock.github/infotact/infra/pull/20"
+    },
+    {
+      "id": "PR-022",
+      "title": "Document rollback automation scripts",
+      "author": "arjun.mehta",
+      "created_at": "2023-08-29T15:55:00",
+      "merged_at": "2023-08-31T23:59:00",
+      "status": "merged",
+      "repository": "platform",
+      "description": "Document rollback automation scripts. Related to the AWS to GCP migration timeline and required production readiness checks.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-08-29T17:55:00",
+          "body": "Please verify this against the migration runbook and rollback plan."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-08-29T21:55:00",
+          "body": "Looks good after reviewing the infrastructure impact and test results."
+        }
+      ],
+      "labels": [
+        "security",
+        "migration",
+        "monitoring"
+      ],
+      "url": "https://mock.github/infotact/platform/pull/22"
+    }
+  ]
+}

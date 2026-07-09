@@ -1,0 +1,1202 @@
+{
+  "tickets": [
+    {
+      "id": "JIRA-008",
+      "title": "Update Terraform modules",
+      "assignee": "neha.gupta",
+      "status": "To Do",
+      "created_at": "2023-01-02T16:47:00",
+      "updated_at": "2023-01-09T16:47:00",
+      "description": "Update Terraform modules. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-01-03T16:47:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-01-04T16:47:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-01-02T16:47:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-008"
+    },
+    {
+      "id": "JIRA-024",
+      "title": "Configure alerting policies",
+      "assignee": "neha.gupta",
+      "status": "In Progress",
+      "created_at": "2023-01-11T12:45:00",
+      "updated_at": "2023-01-30T12:45:00",
+      "description": "Configure alerting policies. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-01-12T12:45:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-01-13T12:45:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-01-11T12:45:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-01-12T12:45:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-024"
+    },
+    {
+      "id": "JIRA-023",
+      "title": "Migrate object storage",
+      "assignee": "anand.kumar",
+      "status": "Done",
+      "created_at": "2023-01-16T16:06:00",
+      "updated_at": "2023-01-21T16:06:00",
+      "description": "Migrate object storage. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-01-17T16:06:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-01-18T16:06:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-01-16T16:06:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-01-17T16:06:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-01-21T16:06:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-023"
+    },
+    {
+      "id": "JIRA-032",
+      "title": "Document rollback communication plan",
+      "assignee": "rahul.sharma",
+      "status": "Done",
+      "created_at": "2023-01-20T13:54:00",
+      "updated_at": "2023-02-09T13:54:00",
+      "description": "Document rollback communication plan. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-01-21T13:54:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-01-22T13:54:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-01-20T13:54:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-01-21T13:54:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-02-09T13:54:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-032"
+    },
+    {
+      "id": "JIRA-016",
+      "title": "Create disaster recovery procedures",
+      "assignee": "priya.patel",
+      "status": "Done",
+      "created_at": "2023-02-07T13:12:00",
+      "updated_at": "2023-02-14T13:12:00",
+      "description": "Create disaster recovery procedures. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-02-08T13:12:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-02-09T13:12:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-02-07T13:12:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-02-08T13:12:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-02-14T13:12:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-016"
+    },
+    {
+      "id": "JIRA-017",
+      "title": "Implement centralized logging",
+      "assignee": "vikram.singh",
+      "status": "Done",
+      "created_at": "2023-02-15T16:29:00",
+      "updated_at": "2023-03-04T16:29:00",
+      "description": "Implement centralized logging. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-02-16T16:29:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-02-17T16:29:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-02-15T16:29:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-02-16T16:29:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-03-04T16:29:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-017"
+    },
+    {
+      "id": "JIRA-034",
+      "title": "Create post-migration cost report",
+      "assignee": "priya.patel",
+      "status": "Done",
+      "created_at": "2023-02-16T18:51:00",
+      "updated_at": "2023-03-05T18:51:00",
+      "description": "Create post-migration cost report. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-02-17T18:51:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-02-18T18:51:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-02-16T18:51:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-02-17T18:51:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-03-05T18:51:00"
+        }
+      ],
+      "priority": "Low",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-034"
+    },
+    {
+      "id": "JIRA-031",
+      "title": "Review migration risk register",
+      "assignee": "neha.gupta",
+      "status": "To Do",
+      "created_at": "2023-02-24T14:49:00",
+      "updated_at": "2023-03-06T14:49:00",
+      "description": "Review migration risk register. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-02-25T14:49:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-02-26T14:49:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-02-24T14:49:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-031"
+    },
+    {
+      "id": "JIRA-005",
+      "title": "Migrate Kubernetes cluster to GCP",
+      "assignee": "anand.kumar",
+      "status": "In Progress",
+      "created_at": "2023-02-25T17:07:00",
+      "updated_at": "2023-03-03T17:07:00",
+      "description": "Migrate Kubernetes cluster to GCP. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-02-26T17:07:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-02-27T17:07:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-02-25T17:07:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-02-26T17:07:00"
+        }
+      ],
+      "priority": "Low",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-005"
+    },
+    {
+      "id": "JIRA-013",
+      "title": "Update CI/CD pipelines",
+      "assignee": "neha.gupta",
+      "status": "Done",
+      "created_at": "2023-03-04T15:37:00",
+      "updated_at": "2023-03-09T15:37:00",
+      "description": "Update CI/CD pipelines. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-03-05T15:37:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-03-06T15:37:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-03-04T15:37:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-03-05T15:37:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-03-09T15:37:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-013"
+    },
+    {
+      "id": "JIRA-004",
+      "title": "Create migration runbook",
+      "assignee": "neha.gupta",
+      "status": "In Progress",
+      "created_at": "2023-03-11T16:42:00",
+      "updated_at": "2023-03-28T16:42:00",
+      "description": "Create migration runbook. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-03-12T16:42:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-03-13T16:42:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-03-11T16:42:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-03-12T16:42:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-004"
+    },
+    {
+      "id": "JIRA-027",
+      "title": "Update engineering documentation",
+      "assignee": "arjun.mehta",
+      "status": "Done",
+      "created_at": "2023-03-14T13:46:00",
+      "updated_at": "2023-03-21T13:46:00",
+      "description": "Update engineering documentation. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-03-15T13:46:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-03-16T13:46:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-03-14T13:46:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-03-15T13:46:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-03-21T13:46:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-027"
+    },
+    {
+      "id": "JIRA-007",
+      "title": "Move monitoring stack to GCP",
+      "assignee": "priya.patel",
+      "status": "In Progress",
+      "created_at": "2023-03-19T12:49:00",
+      "updated_at": "2023-03-31T12:49:00",
+      "description": "Move monitoring stack to GCP. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-03-20T12:49:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-03-21T12:49:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-03-19T12:49:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-03-20T12:49:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-007"
+    },
+    {
+      "id": "JIRA-029",
+      "title": "Migrate analytics workloads",
+      "assignee": "arjun.mehta",
+      "status": "In Progress",
+      "created_at": "2023-03-21T17:24:00",
+      "updated_at": "2023-03-28T17:24:00",
+      "description": "Migrate analytics workloads. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-03-22T17:24:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-03-23T17:24:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-03-21T17:24:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-03-22T17:24:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-029"
+    },
+    {
+      "id": "JIRA-035",
+      "title": "Confirm AWS decommission checklist",
+      "assignee": "vikram.singh",
+      "status": "In Progress",
+      "created_at": "2023-04-04T12:28:00",
+      "updated_at": "2023-04-21T12:28:00",
+      "description": "Confirm AWS decommission checklist. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-04-05T12:28:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-04-06T12:28:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-04-04T12:28:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-04-05T12:28:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-035"
+    },
+    {
+      "id": "JIRA-025",
+      "title": "Optimize compute resources",
+      "assignee": "anand.kumar",
+      "status": "In Progress",
+      "created_at": "2023-04-04T14:58:00",
+      "updated_at": "2023-04-20T14:58:00",
+      "description": "Optimize compute resources. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-04-05T14:58:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-04-06T14:58:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-04-04T14:58:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-04-05T14:58:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-025"
+    },
+    {
+      "id": "JIRA-010",
+      "title": "Migrate Cloud SQL database",
+      "assignee": "rahul.sharma",
+      "status": "In Progress",
+      "created_at": "2023-04-22T09:29:00",
+      "updated_at": "2023-05-13T09:29:00",
+      "description": "Migrate Cloud SQL database. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-04-23T09:29:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-04-24T09:29:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-04-22T09:29:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-04-23T09:29:00"
+        }
+      ],
+      "priority": "Low",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-010"
+    },
+    {
+      "id": "JIRA-022",
+      "title": "Validate production deployment",
+      "assignee": "priya.patel",
+      "status": "In Progress",
+      "created_at": "2023-04-26T18:41:00",
+      "updated_at": "2023-05-14T18:41:00",
+      "description": "Validate production deployment. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-04-27T18:41:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-04-28T18:41:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-04-26T18:41:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-04-27T18:41:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-022"
+    },
+    {
+      "id": "JIRA-002",
+      "title": "Prepare AWS vs GCP cost comparison report",
+      "assignee": "anand.kumar",
+      "status": "In Progress",
+      "created_at": "2023-04-27T14:10:00",
+      "updated_at": "2023-05-10T14:10:00",
+      "description": "Prepare AWS vs GCP cost comparison report. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-04-28T14:10:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-04-29T14:10:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-04-27T14:10:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-04-28T14:10:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-002"
+    },
+    {
+      "id": "JIRA-020",
+      "title": "Create cost monitoring dashboard",
+      "assignee": "rahul.sharma",
+      "status": "In Progress",
+      "created_at": "2023-04-29T16:02:00",
+      "updated_at": "2023-05-11T16:02:00",
+      "description": "Create cost monitoring dashboard. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-04-30T16:02:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-05-01T16:02:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-04-29T16:02:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-04-30T16:02:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-020"
+    },
+    {
+      "id": "JIRA-009",
+      "title": "Implement DNS cutover plan",
+      "assignee": "arjun.mehta",
+      "status": "In Progress",
+      "created_at": "2023-05-09T17:53:00",
+      "updated_at": "2023-05-14T17:53:00",
+      "description": "Implement DNS cutover plan. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-05-10T17:53:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-05-11T17:53:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-05-09T17:53:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-05-10T17:53:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-009"
+    },
+    {
+      "id": "JIRA-006",
+      "title": "Configure GCP IAM roles",
+      "assignee": "priya.patel",
+      "status": "In Progress",
+      "created_at": "2023-05-15T13:02:00",
+      "updated_at": "2023-05-19T13:02:00",
+      "description": "Configure GCP IAM roles. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-05-16T13:02:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-05-17T13:02:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-05-15T13:02:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-05-16T13:02:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-006"
+    },
+    {
+      "id": "JIRA-015",
+      "title": "Migrate Redis cache",
+      "assignee": "anand.kumar",
+      "status": "In Progress",
+      "created_at": "2023-05-16T17:12:00",
+      "updated_at": "2023-05-23T17:12:00",
+      "description": "Migrate Redis cache. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-05-17T17:12:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-05-18T17:12:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-05-16T17:12:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-05-17T17:12:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-015"
+    },
+    {
+      "id": "JIRA-028",
+      "title": "Implement security scanning",
+      "assignee": "anand.kumar",
+      "status": "In Progress",
+      "created_at": "2023-05-30T11:58:00",
+      "updated_at": "2023-06-14T11:58:00",
+      "description": "Implement security scanning. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-05-31T11:58:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-06-01T11:58:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-05-30T11:58:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-05-31T11:58:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-028"
+    },
+    {
+      "id": "JIRA-021",
+      "title": "Perform load testing on GCP",
+      "assignee": "neha.gupta",
+      "status": "In Progress",
+      "created_at": "2023-06-07T18:32:00",
+      "updated_at": "2023-06-28T18:32:00",
+      "description": "Perform load testing on GCP. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-06-08T18:32:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-06-09T18:32:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-06-07T18:32:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-06-08T18:32:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-021"
+    },
+    {
+      "id": "JIRA-030",
+      "title": "Finalize production cutover",
+      "assignee": "anand.kumar",
+      "status": "To Do",
+      "created_at": "2023-06-15T15:32:00",
+      "updated_at": "2023-06-29T15:32:00",
+      "description": "Finalize production cutover. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-06-16T15:32:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-06-17T15:32:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-06-15T15:32:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-030"
+    },
+    {
+      "id": "JIRA-033",
+      "title": "Validate GKE autoscaling policy",
+      "assignee": "vikram.singh",
+      "status": "To Do",
+      "created_at": "2023-06-19T14:56:00",
+      "updated_at": "2023-07-04T14:56:00",
+      "description": "Validate GKE autoscaling policy. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "priya.patel",
+          "created_at": "2023-06-20T14:56:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-06-21T14:56:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-06-19T14:56:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-033"
+    },
+    {
+      "id": "JIRA-011",
+      "title": "Create BigQuery datasets",
+      "assignee": "rahul.sharma",
+      "status": "In Progress",
+      "created_at": "2023-07-01T15:18:00",
+      "updated_at": "2023-07-04T15:18:00",
+      "description": "Create BigQuery datasets. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-07-02T15:18:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-07-03T15:18:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-07-01T15:18:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-07-02T15:18:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-011"
+    },
+    {
+      "id": "JIRA-001",
+      "title": "Evaluate GCP migration feasibility",
+      "assignee": "arjun.mehta",
+      "status": "Done",
+      "created_at": "2023-07-09T09:05:00",
+      "updated_at": "2023-07-18T09:05:00",
+      "description": "Evaluate GCP migration feasibility. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-07-10T09:05:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-07-11T09:05:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-07-09T09:05:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-07-10T09:05:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-07-18T09:05:00"
+        }
+      ],
+      "priority": "Low",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-001"
+    },
+    {
+      "id": "JIRA-014",
+      "title": "Implement backup strategy",
+      "assignee": "anand.kumar",
+      "status": "To Do",
+      "created_at": "2023-07-10T14:14:00",
+      "updated_at": "2023-07-15T14:14:00",
+      "description": "Implement backup strategy. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "vikram.singh",
+          "created_at": "2023-07-11T14:14:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-07-12T14:14:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-07-10T14:14:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-014"
+    },
+    {
+      "id": "JIRA-026",
+      "title": "Decommission AWS resources",
+      "assignee": "anand.kumar",
+      "status": "To Do",
+      "created_at": "2023-07-22T14:04:00",
+      "updated_at": "2023-08-11T14:04:00",
+      "description": "Decommission AWS resources. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-07-23T14:04:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "anand.kumar",
+          "created_at": "2023-07-24T14:04:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-07-22T14:04:00"
+        }
+      ],
+      "priority": "Low",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-026"
+    },
+    {
+      "id": "JIRA-019",
+      "title": "Configure VPC networking",
+      "assignee": "rahul.sharma",
+      "status": "In Progress",
+      "created_at": "2023-07-23T13:37:00",
+      "updated_at": "2023-08-11T13:37:00",
+      "description": "Configure VPC networking. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-07-24T13:37:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "rahul.sharma",
+          "created_at": "2023-07-25T13:37:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-07-23T13:37:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-07-24T13:37:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-019"
+    },
+    {
+      "id": "JIRA-012",
+      "title": "Configure service accounts",
+      "assignee": "arjun.mehta",
+      "status": "In Progress",
+      "created_at": "2023-07-25T18:29:00",
+      "updated_at": "2023-07-30T18:29:00",
+      "description": "Configure service accounts. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-07-26T18:29:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-07-27T18:29:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-07-25T18:29:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-07-26T18:29:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-012"
+    },
+    {
+      "id": "JIRA-018",
+      "title": "Set up GKE cluster",
+      "assignee": "neha.gupta",
+      "status": "To Do",
+      "created_at": "2023-08-10T14:09:00",
+      "updated_at": "2023-08-28T14:09:00",
+      "description": "Set up GKE cluster. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-08-11T14:09:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "neha.gupta",
+          "created_at": "2023-08-12T14:09:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-08-10T14:09:00"
+        }
+      ],
+      "priority": "Medium",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-018"
+    },
+    {
+      "id": "JIRA-003",
+      "title": "Build proof of concept on GCP",
+      "assignee": "priya.patel",
+      "status": "Done",
+      "created_at": "2023-08-15T09:09:00",
+      "updated_at": "2023-08-19T09:09:00",
+      "description": "Build proof of concept on GCP. Track implementation, validation evidence, owner, and migration impact.",
+      "comments": [
+        {
+          "author": "arjun.mehta",
+          "created_at": "2023-08-16T09:09:00",
+          "body": "Added acceptance criteria and linked this task to the migration milestone."
+        },
+        {
+          "author": "priya.patel",
+          "created_at": "2023-08-17T09:09:00",
+          "body": "Work is progressing; dependencies and risks have been documented."
+        }
+      ],
+      "status_history": [
+        {
+          "status": "To Do",
+          "changed_at": "2023-08-15T09:09:00"
+        },
+        {
+          "status": "In Progress",
+          "changed_at": "2023-08-16T09:09:00"
+        },
+        {
+          "status": "Done",
+          "changed_at": "2023-08-19T09:09:00"
+        }
+      ],
+      "priority": "High",
+      "project": "CLOUD",
+      "url": "https://mock.jira/browse/JIRA-003"
+    }
+  ]
+}

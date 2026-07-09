@@ -1,0 +1,1300 @@
+{
+  "messages": [
+    {
+      "id": "slack_078",
+      "timestamp": "2023-01-03T13:14:00",
+      "user": "neha.gupta",
+      "text": "Can someone prepare a cost comparison between AWS and GCP?",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/078"
+    },
+    {
+      "id": "slack_103",
+      "timestamp": "2023-01-05T17:37:00",
+      "user": "anand.kumar",
+      "text": "Our AWS bill increased by another 8% this month.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1672920420.579123",
+      "reactions": [],
+      "permalink": "https://mock.slack/103"
+    },
+    {
+      "id": "slack_090",
+      "timestamp": "2023-01-06T13:38:00",
+      "user": "arjun.mehta",
+      "text": "We need to understand why compute costs are growing.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1672992480.822131",
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/090"
+    },
+    {
+      "id": "slack_063",
+      "timestamp": "2023-01-07T15:24:00",
+      "user": "vikram.singh",
+      "text": "Our AWS bill increased by another 8% this month.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/063"
+    },
+    {
+      "id": "slack_088",
+      "timestamp": "2023-01-08T13:45:00",
+      "user": "anand.kumar",
+      "text": "Finance is asking for cloud cost optimization options.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/088"
+    },
+    {
+      "id": "slack_001",
+      "timestamp": "2023-01-10T00:00:00",
+      "user": "rahul.sharma",
+      "text": "Our AWS bill has increased by 40% in the last six months. We should evaluate alternatives.",
+      "channel": "#engineering",
+      "thread_ts": "1673289000.388389",
+      "reactions": [],
+      "permalink": "https://mock.slack/001"
+    },
+    {
+      "id": "slack_002",
+      "timestamp": "2023-01-12T00:00:00",
+      "user": "neha.gupta",
+      "text": "I prepared a cost report and GCP appears significantly cheaper for compute workloads.",
+      "channel": "#architecture",
+      "thread_ts": "1673461800.207473",
+      "reactions": [
+        "white_check_mark",
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/002"
+    },
+    {
+      "id": "slack_033",
+      "timestamp": "2023-01-13T14:51:00",
+      "user": "rahul.sharma",
+      "text": "Can someone prepare a cost comparison between AWS and GCP?",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/033"
+    },
+    {
+      "id": "slack_003",
+      "timestamp": "2023-01-15T00:00:00",
+      "user": "anand.kumar",
+      "text": "Maybe we should run a proof of concept on GCP.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1673721000.198246",
+      "reactions": [],
+      "permalink": "https://mock.slack/003"
+    },
+    {
+      "id": "slack_086",
+      "timestamp": "2023-01-20T10:48:00",
+      "user": "priya.patel",
+      "text": "Can someone prepare a cost comparison between AWS and GCP?",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/086"
+    },
+    {
+      "id": "slack_053",
+      "timestamp": "2023-01-23T15:00:00",
+      "user": "vikram.singh",
+      "text": "Can someone prepare a cost comparison between AWS and GCP?",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face",
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/053"
+    },
+    {
+      "id": "slack_037",
+      "timestamp": "2023-01-24T14:03:00",
+      "user": "rahul.sharma",
+      "text": "Finance is asking for cloud cost optimization options.",
+      "channel": "#architecture",
+      "thread_ts": "1674549180.632496",
+      "reactions": [],
+      "permalink": "https://mock.slack/037"
+    },
+    {
+      "id": "slack_023",
+      "timestamp": "2023-01-28T10:09:00",
+      "user": "arjun.mehta",
+      "text": "Can someone prepare a cost comparison between AWS and GCP?",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/023"
+    },
+    {
+      "id": "slack_097",
+      "timestamp": "2023-02-01T18:51:00",
+      "user": "priya.patel",
+      "text": "The DevOps team will need training before we migrate to GCP.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1675257660.982277",
+      "reactions": [],
+      "permalink": "https://mock.slack/097"
+    },
+    {
+      "id": "slack_004",
+      "timestamp": "2023-02-05T00:00:00",
+      "user": "priya.patel",
+      "text": "Migrating to GCP will require retraining the DevOps team.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/004"
+    },
+    {
+      "id": "slack_062",
+      "timestamp": "2023-02-05T11:14:00",
+      "user": "priya.patel",
+      "text": "The DevOps team will need training before we migrate to GCP.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/062"
+    },
+    {
+      "id": "slack_092",
+      "timestamp": "2023-02-08T18:37:00",
+      "user": "rahul.sharma",
+      "text": "Terraform modules will need updates.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "rocket",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/092"
+    },
+    {
+      "id": "slack_075",
+      "timestamp": "2023-02-09T16:15:00",
+      "user": "neha.gupta",
+      "text": "I have concerns about migration risks.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/075"
+    },
+    {
+      "id": "slack_005",
+      "timestamp": "2023-02-10T00:00:00",
+      "user": "vikram.singh",
+      "text": "There is a risk of production downtime during migration.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark",
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/005"
+    },
+    {
+      "id": "slack_106",
+      "timestamp": "2023-02-14T10:48:00",
+      "user": "arjun.mehta",
+      "text": "GCP pricing looks attractive for our workloads.",
+      "channel": "#engineering",
+      "thread_ts": "1676351880.934816",
+      "reactions": [],
+      "permalink": "https://mock.slack/106"
+    },
+    {
+      "id": "slack_039",
+      "timestamp": "2023-02-14T18:36:00",
+      "user": "vikram.singh",
+      "text": "Terraform modules will need updates.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/039"
+    },
+    {
+      "id": "slack_006",
+      "timestamp": "2023-02-15T00:00:00",
+      "user": "arjun.mehta",
+      "text": "Let's compare Kubernetes support on AWS and GCP.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/006"
+    },
+    {
+      "id": "slack_084",
+      "timestamp": "2023-02-19T09:09:00",
+      "user": "priya.patel",
+      "text": "The DevOps team will need training before we migrate to GCP.",
+      "channel": "#architecture",
+      "thread_ts": "1676777940.901577",
+      "reactions": [
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/084"
+    },
+    {
+      "id": "slack_052",
+      "timestamp": "2023-02-20T15:22:00",
+      "user": "arjun.mehta",
+      "text": "Terraform modules will need updates.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "eyes",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/052"
+    },
+    {
+      "id": "slack_066",
+      "timestamp": "2023-02-21T15:08:00",
+      "user": "vikram.singh",
+      "text": "I am concerned about production downtime during migration.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/066"
+    },
+    {
+      "id": "slack_044",
+      "timestamp": "2023-02-21T15:53:00",
+      "user": "vikram.singh",
+      "text": "I am concerned about production downtime during migration.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/044"
+    },
+    {
+      "id": "slack_054",
+      "timestamp": "2023-02-24T13:32:00",
+      "user": "anand.kumar",
+      "text": "We should evaluate Kubernetes support on GCP.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "rocket",
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/054"
+    },
+    {
+      "id": "slack_080",
+      "timestamp": "2023-02-24T17:48:00",
+      "user": "vikram.singh",
+      "text": "I am concerned about production downtime during migration.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/080"
+    },
+    {
+      "id": "slack_070",
+      "timestamp": "2023-02-25T11:19:00",
+      "user": "vikram.singh",
+      "text": "I am concerned about production downtime during migration.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/070"
+    },
+    {
+      "id": "slack_035",
+      "timestamp": "2023-02-25T12:10:00",
+      "user": "neha.gupta",
+      "text": "We should evaluate Kubernetes support on GCP.",
+      "channel": "#engineering",
+      "thread_ts": "1677307200.102260",
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/035"
+    },
+    {
+      "id": "slack_072",
+      "timestamp": "2023-02-26T18:50:00",
+      "user": "rahul.sharma",
+      "text": "Terraform modules will need updates.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/072"
+    },
+    {
+      "id": "slack_081",
+      "timestamp": "2023-02-27T12:18:00",
+      "user": "vikram.singh",
+      "text": "I am concerned about production downtime during migration.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/081"
+    },
+    {
+      "id": "slack_109",
+      "timestamp": "2023-03-03T16:22:00",
+      "user": "vikram.singh",
+      "text": "The initial GKE setup is working well.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/109"
+    },
+    {
+      "id": "slack_038",
+      "timestamp": "2023-03-03T18:04:00",
+      "user": "arjun.mehta",
+      "text": "Performance tests on GCP look promising.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/038"
+    },
+    {
+      "id": "slack_007",
+      "timestamp": "2023-03-05T00:00:00",
+      "user": "anand.kumar",
+      "text": "The GCP proof of concept reduced compute costs by nearly 30%.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/007"
+    },
+    {
+      "id": "slack_028",
+      "timestamp": "2023-03-05T16:35:00",
+      "user": "priya.patel",
+      "text": "The initial GKE setup is working well.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "eyes",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/028"
+    },
+    {
+      "id": "slack_069",
+      "timestamp": "2023-03-08T11:30:00",
+      "user": "arjun.mehta",
+      "text": "The proof of concept on GCP reduced compute costs by 30%.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/069"
+    },
+    {
+      "id": "slack_008",
+      "timestamp": "2023-03-10T00:00:00",
+      "user": "rahul.sharma",
+      "text": "Terraform modules can be migrated with minor changes.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/008"
+    },
+    {
+      "id": "slack_046",
+      "timestamp": "2023-03-14T11:02:00",
+      "user": "anand.kumar",
+      "text": "The initial GKE setup is working well.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/046"
+    },
+    {
+      "id": "slack_104",
+      "timestamp": "2023-03-14T11:04:00",
+      "user": "neha.gupta",
+      "text": "The initial GKE setup is working well.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark",
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/104"
+    },
+    {
+      "id": "slack_093",
+      "timestamp": "2023-03-19T15:40:00",
+      "user": "neha.gupta",
+      "text": "The proof of concept on GCP reduced compute costs by 30%.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/093"
+    },
+    {
+      "id": "slack_009",
+      "timestamp": "2023-03-20T00:00:00",
+      "user": "neha.gupta",
+      "text": "Performance benchmarks on GCP look promising.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/009"
+    },
+    {
+      "id": "slack_048",
+      "timestamp": "2023-03-26T11:56:00",
+      "user": "anand.kumar",
+      "text": "The GCP proof of concept reduced compute costs by nearly 30%.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/048"
+    },
+    {
+      "id": "slack_059",
+      "timestamp": "2023-03-26T17:29:00",
+      "user": "rahul.sharma",
+      "text": "The proof of concept demonstrates that GCP can handle our workloads.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/059"
+    },
+    {
+      "id": "slack_030",
+      "timestamp": "2023-04-01T10:45:00",
+      "user": "arjun.mehta",
+      "text": "Management has approved the AWS to GCP migration.",
+      "channel": "#architecture",
+      "thread_ts": "1680326100.132938",
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/030"
+    },
+    {
+      "id": "slack_050",
+      "timestamp": "2023-04-01T12:25:00",
+      "user": "anand.kumar",
+      "text": "We need to identify production dependencies.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/050"
+    },
+    {
+      "id": "slack_071",
+      "timestamp": "2023-04-03T18:44:00",
+      "user": "arjun.mehta",
+      "text": "Let's start preparing the migration roadmap.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/071"
+    },
+    {
+      "id": "slack_032",
+      "timestamp": "2023-04-04T10:42:00",
+      "user": "neha.gupta",
+      "text": "We need to identify production dependencies.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup",
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/032"
+    },
+    {
+      "id": "slack_026",
+      "timestamp": "2023-04-05T14:48:00",
+      "user": "priya.patel",
+      "text": "Management has approved the AWS to GCP migration.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/026"
+    },
+    {
+      "id": "slack_087",
+      "timestamp": "2023-04-06T17:04:00",
+      "user": "priya.patel",
+      "text": "Management has approved the AWS to GCP migration.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "rocket",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/087"
+    },
+    {
+      "id": "slack_031",
+      "timestamp": "2023-04-09T16:13:00",
+      "user": "vikram.singh",
+      "text": "Let's start preparing the migration roadmap.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/031"
+    },
+    {
+      "id": "slack_010",
+      "timestamp": "2023-04-10T00:00:00",
+      "user": "rahul.sharma",
+      "text": "Management has approved the AWS to GCP migration.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "rocket",
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/010"
+    },
+    {
+      "id": "slack_089",
+      "timestamp": "2023-04-14T10:34:00",
+      "user": "priya.patel",
+      "text": "Let's start preparing the migration roadmap.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/089"
+    },
+    {
+      "id": "slack_011",
+      "timestamp": "2023-04-15T00:00:00",
+      "user": "priya.patel",
+      "text": "We should begin planning the production migration.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1681497000.407419",
+      "reactions": [
+        "white_check_mark",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/011"
+    },
+    {
+      "id": "slack_099",
+      "timestamp": "2023-04-15T17:09:00",
+      "user": "neha.gupta",
+      "text": "Let's start preparing the migration roadmap.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/099"
+    },
+    {
+      "id": "slack_047",
+      "timestamp": "2023-04-22T10:22:00",
+      "user": "vikram.singh",
+      "text": "Migration planning meetings will begin next week.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/047"
+    },
+    {
+      "id": "slack_077",
+      "timestamp": "2023-04-24T15:31:00",
+      "user": "vikram.singh",
+      "text": "Let's start preparing the migration roadmap.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/077"
+    },
+    {
+      "id": "slack_085",
+      "timestamp": "2023-04-25T17:24:00",
+      "user": "neha.gupta",
+      "text": "Migration planning meetings will begin next week.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/085"
+    },
+    {
+      "id": "slack_102",
+      "timestamp": "2023-04-28T15:02:00",
+      "user": "anand.kumar",
+      "text": "Migration planning meetings will begin next week.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "eyes",
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/102"
+    },
+    {
+      "id": "slack_012",
+      "timestamp": "2023-05-01T00:00:00",
+      "user": "anand.kumar",
+      "text": "I have started preparing Terraform updates for GCP.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/012"
+    },
+    {
+      "id": "slack_082",
+      "timestamp": "2023-05-02T09:35:00",
+      "user": "anand.kumar",
+      "text": "The Kubernetes migration plan is finalized.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face",
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/082"
+    },
+    {
+      "id": "slack_021",
+      "timestamp": "2023-05-03T12:58:00",
+      "user": "vikram.singh",
+      "text": "IAM roles have been configured in GCP.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1683098880.246413",
+      "reactions": [],
+      "permalink": "https://mock.slack/021"
+    },
+    {
+      "id": "slack_049",
+      "timestamp": "2023-05-06T10:24:00",
+      "user": "rahul.sharma",
+      "text": "The migration runbook is ready for review.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/049"
+    },
+    {
+      "id": "slack_057",
+      "timestamp": "2023-05-08T12:09:00",
+      "user": "rahul.sharma",
+      "text": "Terraform updates for GCP are underway.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark",
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/057"
+    },
+    {
+      "id": "slack_043",
+      "timestamp": "2023-05-10T18:13:00",
+      "user": "arjun.mehta",
+      "text": "IAM roles have been configured in GCP.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/043"
+    },
+    {
+      "id": "slack_013",
+      "timestamp": "2023-05-12T00:00:00",
+      "user": "vikram.singh",
+      "text": "Kubernetes migration plan has been finalized.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/013"
+    },
+    {
+      "id": "slack_107",
+      "timestamp": "2023-05-12T14:27:00",
+      "user": "priya.patel",
+      "text": "The Kubernetes migration plan is finalized.",
+      "channel": "#architecture",
+      "thread_ts": "1683881820.182804",
+      "reactions": [
+        "rocket",
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/107"
+    },
+    {
+      "id": "slack_055",
+      "timestamp": "2023-05-13T17:53:00",
+      "user": "rahul.sharma",
+      "text": "IAM roles have been configured in GCP.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/055"
+    },
+    {
+      "id": "slack_025",
+      "timestamp": "2023-05-14T11:29:00",
+      "user": "rahul.sharma",
+      "text": "IAM roles have been configured in GCP.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/025"
+    },
+    {
+      "id": "slack_040",
+      "timestamp": "2023-05-15T14:59:00",
+      "user": "rahul.sharma",
+      "text": "Terraform updates for GCP are underway.",
+      "channel": "#engineering",
+      "thread_ts": "1684142940.323508",
+      "reactions": [
+        "thinking_face",
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/040"
+    },
+    {
+      "id": "slack_091",
+      "timestamp": "2023-05-17T17:31:00",
+      "user": "neha.gupta",
+      "text": "Terraform updates for GCP are underway.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/091"
+    },
+    {
+      "id": "slack_074",
+      "timestamp": "2023-05-20T17:49:00",
+      "user": "neha.gupta",
+      "text": "The migration runbook is ready for review.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/074"
+    },
+    {
+      "id": "slack_042",
+      "timestamp": "2023-05-22T10:56:00",
+      "user": "rahul.sharma",
+      "text": "Terraform migration to GCP is progressing according to plan.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/042"
+    },
+    {
+      "id": "slack_022",
+      "timestamp": "2023-05-24T18:27:00",
+      "user": "vikram.singh",
+      "text": "The migration runbook is ready for review.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/022"
+    },
+    {
+      "id": "slack_061",
+      "timestamp": "2023-05-25T17:31:00",
+      "user": "anand.kumar",
+      "text": "The Kubernetes migration checklist has been completed.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/061"
+    },
+    {
+      "id": "slack_014",
+      "timestamp": "2023-06-01T00:00:00",
+      "user": "rahul.sharma",
+      "text": "The first production service has been migrated successfully.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/014"
+    },
+    {
+      "id": "slack_041",
+      "timestamp": "2023-06-03T12:23:00",
+      "user": "anand.kumar",
+      "text": "Cloud SQL migration completed successfully.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark",
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/041"
+    },
+    {
+      "id": "slack_095",
+      "timestamp": "2023-06-04T15:55:00",
+      "user": "vikram.singh",
+      "text": "The first production service has been migrated successfully.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/095"
+    },
+    {
+      "id": "slack_068",
+      "timestamp": "2023-06-08T10:49:00",
+      "user": "arjun.mehta",
+      "text": "The first production service has been migrated successfully.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/068"
+    },
+    {
+      "id": "slack_112",
+      "timestamp": "2023-06-08T12:39:00",
+      "user": "anand.kumar",
+      "text": "Cloud SQL migration completed successfully.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/112"
+    },
+    {
+      "id": "slack_094",
+      "timestamp": "2023-06-14T16:18:00",
+      "user": "arjun.mehta",
+      "text": "Monitoring dashboards have been updated.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/094"
+    },
+    {
+      "id": "slack_079",
+      "timestamp": "2023-06-14T17:21:00",
+      "user": "anand.kumar",
+      "text": "Monitoring dashboards have been updated.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "eyes",
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/079"
+    },
+    {
+      "id": "slack_015",
+      "timestamp": "2023-06-15T00:00:00",
+      "user": "priya.patel",
+      "text": "Monitoring dashboards have been updated for GCP.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/015"
+    },
+    {
+      "id": "slack_016",
+      "timestamp": "2023-06-20T00:00:00",
+      "user": "anand.kumar",
+      "text": "Terraform deployment on GCP is stable.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face",
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/016"
+    },
+    {
+      "id": "slack_096",
+      "timestamp": "2023-06-20T16:40:00",
+      "user": "neha.gupta",
+      "text": "The first production service has been migrated successfully.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/096"
+    },
+    {
+      "id": "slack_105",
+      "timestamp": "2023-06-21T16:55:00",
+      "user": "vikram.singh",
+      "text": "The first production service has been migrated successfully.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/105"
+    },
+    {
+      "id": "slack_067",
+      "timestamp": "2023-06-25T15:17:00",
+      "user": "neha.gupta",
+      "text": "DNS cutover completed without downtime.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1687686420.665621",
+      "reactions": [],
+      "permalink": "https://mock.slack/067"
+    },
+    {
+      "id": "slack_100",
+      "timestamp": "2023-06-26T17:17:00",
+      "user": "rahul.sharma",
+      "text": "DNS cutover completed without downtime.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/100"
+    },
+    {
+      "id": "slack_027",
+      "timestamp": "2023-06-27T13:15:00",
+      "user": "rahul.sharma",
+      "text": "Cloud SQL migration completed successfully.",
+      "channel": "#engineering",
+      "thread_ts": "1687851900.609597",
+      "reactions": [],
+      "permalink": "https://mock.slack/027"
+    },
+    {
+      "id": "slack_017",
+      "timestamp": "2023-07-05T00:00:00",
+      "user": "neha.gupta",
+      "text": "Infrastructure costs have already dropped by 32%.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/017"
+    },
+    {
+      "id": "slack_034",
+      "timestamp": "2023-07-06T13:29:00",
+      "user": "priya.patel",
+      "text": "Infrastructure costs have dropped by 32%.",
+      "channel": "#engineering",
+      "thread_ts": "1688630340.666847",
+      "reactions": [],
+      "permalink": "https://mock.slack/034"
+    },
+    {
+      "id": "slack_111",
+      "timestamp": "2023-07-09T09:36:00",
+      "user": "arjun.mehta",
+      "text": "Infrastructure costs have dropped by 32%.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/111"
+    },
+    {
+      "id": "slack_065",
+      "timestamp": "2023-07-11T15:46:00",
+      "user": "priya.patel",
+      "text": "The GKE cluster is performing better than expected.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark",
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/065"
+    },
+    {
+      "id": "slack_018",
+      "timestamp": "2023-07-15T00:00:00",
+      "user": "vikram.singh",
+      "text": "We can begin decommissioning old AWS resources.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/018"
+    },
+    {
+      "id": "slack_058",
+      "timestamp": "2023-07-16T15:15:00",
+      "user": "priya.patel",
+      "text": "Infrastructure costs have dropped by 32%.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/058"
+    },
+    {
+      "id": "slack_029",
+      "timestamp": "2023-07-22T14:28:00",
+      "user": "neha.gupta",
+      "text": "Infrastructure costs have dropped by more than 30% after migration.",
+      "channel": "#architecture",
+      "thread_ts": "1690016280.122056",
+      "reactions": [
+        "white_check_mark",
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/029"
+    },
+    {
+      "id": "slack_051",
+      "timestamp": "2023-07-22T17:21:00",
+      "user": "rahul.sharma",
+      "text": "Infrastructure costs have dropped by 32%.",
+      "channel": "#devops",
+      "thread_ts": "1690026660.378361",
+      "reactions": [],
+      "permalink": "https://mock.slack/051"
+    },
+    {
+      "id": "slack_073",
+      "timestamp": "2023-07-27T16:06:00",
+      "user": "neha.gupta",
+      "text": "We should start decommissioning unused AWS resources.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [
+        "eyes"
+      ],
+      "permalink": "https://mock.slack/073"
+    },
+    {
+      "id": "slack_064",
+      "timestamp": "2023-07-28T15:34:00",
+      "user": "arjun.mehta",
+      "text": "Application latency has improved after migration.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/064"
+    },
+    {
+      "id": "slack_110",
+      "timestamp": "2023-07-28T16:06:00",
+      "user": "priya.patel",
+      "text": "The GKE cluster is performing better than expected.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/110"
+    },
+    {
+      "id": "slack_098",
+      "timestamp": "2023-08-04T11:31:00",
+      "user": "arjun.mehta",
+      "text": "The migration project has been completed successfully.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/098"
+    },
+    {
+      "id": "slack_076",
+      "timestamp": "2023-08-07T14:51:00",
+      "user": "anand.kumar",
+      "text": "The migration project has been completed successfully.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "eyes",
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/076"
+    },
+    {
+      "id": "slack_019",
+      "timestamp": "2023-08-10T00:00:00",
+      "user": "rahul.sharma",
+      "text": "Final production workloads are now running on GCP.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/019"
+    },
+    {
+      "id": "slack_036",
+      "timestamp": "2023-08-10T15:44:00",
+      "user": "vikram.singh",
+      "text": "All production services are now running successfully on GCP.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/036"
+    },
+    {
+      "id": "slack_101",
+      "timestamp": "2023-08-12T14:35:00",
+      "user": "vikram.singh",
+      "text": "Excellent work everyone on the migration effort.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "eyes",
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/101"
+    },
+    {
+      "id": "slack_083",
+      "timestamp": "2023-08-15T14:11:00",
+      "user": "rahul.sharma",
+      "text": "The migration project has been completed successfully.",
+      "channel": "#cloud-migration",
+      "thread_ts": "1692088860.168517",
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/083"
+    },
+    {
+      "id": "slack_024",
+      "timestamp": "2023-08-17T13:35:00",
+      "user": "rahul.sharma",
+      "text": "All production services are now running on GCP.",
+      "channel": "#devops",
+      "thread_ts": null,
+      "reactions": [
+        "thumbsup"
+      ],
+      "permalink": "https://mock.slack/024"
+    },
+    {
+      "id": "slack_020",
+      "timestamp": "2023-08-18T00:00:00",
+      "user": "vikram.singh",
+      "text": "AWS to GCP migration completed successfully.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "rocket"
+      ],
+      "permalink": "https://mock.slack/020"
+    },
+    {
+      "id": "slack_045",
+      "timestamp": "2023-08-18T15:35:00",
+      "user": "vikram.singh",
+      "text": "All production services are now running successfully on GCP.",
+      "channel": "#architecture",
+      "thread_ts": null,
+      "reactions": [
+        "white_check_mark"
+      ],
+      "permalink": "https://mock.slack/045"
+    },
+    {
+      "id": "slack_108",
+      "timestamp": "2023-08-19T11:14:00",
+      "user": "neha.gupta",
+      "text": "The migration project has been completed successfully.",
+      "channel": "#engineering",
+      "thread_ts": null,
+      "reactions": [
+        "thinking_face"
+      ],
+      "permalink": "https://mock.slack/108"
+    },
+    {
+      "id": "slack_060",
+      "timestamp": "2023-08-20T17:27:00",
+      "user": "vikram.singh",
+      "text": "Excellent work everyone on the migration effort.",
+      "channel": "#cloud-migration",
+      "thread_ts": null,
+      "reactions": [],
+      "permalink": "https://mock.slack/060"
+    },
+    {
+      "id": "slack_056",
+      "timestamp": "2023-08-26T11:42:00",
+      "user": "rahul.sharma",
+      "text": "The migration project has been completed successfully.",
+      "channel": "#devops",
+      "thread_ts": "1693030320.887625",
+      "reactions": [],
+      "permalink": "https://mock.slack/056"
+    }
+  ]
+}
