@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+requests
+neo4j
+langchain
+langchain-neo4j
+llama-index
+llama-index-graph-stores-neo4j
+groq
+
