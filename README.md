@@ -32,15 +32,15 @@ the original enterprise records.
 - Generate cited, chronological answers using a Temporal GraphRAG pipeline.
 - Provide a frontend chat interface with timeline visualization.
 
-## Current Implementation Status
-
-The current backend scaffold includes:
+## The current implementation includes:
 
 - FastAPI application entry point.
 - Slack, GitHub, and Jira mock-data connectors.
 - Unified document schema for normalized ingestion.
 - Mock ingestion endpoint for generating normalized data.
-- Project structure for backend, mock data, and normalized output.
+- Initial graph schema definitions (entities and relationships).
+- Initial graph extractor module scaffold for future LLM-based extraction.
+- Project structure for backend, mock data, graph extraction, and normalized output.
 
 ## Repository Structure
 
@@ -53,8 +53,10 @@ genai-workspace/
 │   │   │   ├── jira_connector.py
 │   │   │   └── slack_connector.py
 │   │   ├── config.py
+│   │   ├── extractor.py
 │   │   ├── main.py
-│   │   └── normalizer.py
+│   │   ├── normalizer.py
+│   │   └── schema.py
 │   ├── data/
 │   │   ├── mock/
 │   │   └── normalized/
@@ -141,6 +143,35 @@ Each normalized document follows this common schema:
 }
 ```
 
+## Graph Extraction (Work in Progress)
+
+The graph extraction module is responsible for transforming normalized
+documents into a structured knowledge graph.
+
+The current implementation includes:
+
+- Initial graph schema defining supported entity types.
+- Initial relationship schema for enterprise knowledge extraction.
+- Graph extractor scaffold that will process `UnifiedDocument` objects.
+- Planned integration with LlamaIndex and Groq for automated entity and relationship extraction.
+
+Supported Entity Types:
+
+- Person
+- Technology
+- Organization
+- Concept
+- Project
+
+Supported Relationship Types:
+
+- ADVOCATED_FOR
+- ARGUED_AGAINST
+- MIGRATED_FROM
+- MIGRATED_TO
+- COMMITTED_CODE
+- WORKS_ON
+
 ## Planned Milestones
 
 ### Week 1: Foundation and Data Pipeline
@@ -148,7 +179,9 @@ Each normalized document follows this common schema:
 - Build mock data for Slack, GitHub, and Jira.
 - Implement connectors for each source.
 - Normalize all source data into a shared schema.
-- Begin graph schema and extraction design.
+- Initial graph schema completed.
+- Graph extraction module scaffold created.
+- Begin LLM-powered entity and relationship extraction.
 
 ### Week 2: Graph Database and Frontend Scaffold
 
@@ -195,7 +228,16 @@ The project will be evaluated on:
 
 ## Project Status
 
-ChronoGraph is currently in the Week 1 foundation phase. The backend ingestion
-scaffold is ready, and the next priority is validating fixed mock data and
-generating normalized source documents for graph extraction.
+ChronoGraph is currently in the Week 1 foundation phase.
 
+Completed:
+- Backend ingestion scaffold.
+- Mock source connectors.
+- Unified document normalization pipeline.
+- Initial graph schema definitions.
+- Graph extraction module scaffold.
+
+Next Steps:
+- Integrate LlamaIndex/Groq for entity and relationship extraction.
+- Generate graph triples from normalized documents.
+- Prepare graph ingestion into Neo4j.
