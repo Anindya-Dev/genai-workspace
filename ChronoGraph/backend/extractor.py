@@ -5,7 +5,7 @@ Responsible for converting UnifiedDocument objects
 into graph entities and relationships using an LLM.
 """
 
-from normalizer import UnifiedDocument
+from backend.normalizer import UnifiedDocument
 
 
 class GraphExtractor:
