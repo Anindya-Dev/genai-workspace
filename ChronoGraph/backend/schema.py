@@ -32,7 +32,12 @@ class RelationshipType(str, Enum):
 @dataclass
 class GraphEntity:
     """
-    Represents a node in the knowledge graph.
+    Represents an entity extracted from enterprise documents.
+
+    Attributes:
+        id: Unique identifier for the entity.
+        name: Human-readable entity name.
+        type: Entity category.
     """
 
     id: str
@@ -43,7 +48,15 @@ class GraphEntity:
 @dataclass
 class GraphRelationship:
     """
-    Represents a relationship (edge) between two entities.
+    Represents a semantic relationship between two graph entities.
+
+    Attributes:
+        source: Source entity ID.
+        target: Target entity ID.
+        type: Relationship type.
+        document_id: Source document from which the relationship was extracted.
+        timestamp: Timestamp of the source document.
+        confidence: Confidence score assigned by the extraction pipeline.
     """
 
     source: str
@@ -52,12 +65,17 @@ class GraphRelationship:
 
     document_id: Optional[str] = None
     timestamp: Optional[datetime] = None
+    confidence: float = 1.0
 
 
 @dataclass
 class GraphExtractionResult:
     """
-    Output returned by the graph extractor.
+    Container for the output of the graph extraction process.
+
+    Attributes:
+        entities: Extracted graph entities.
+        relationships: Extracted graph relationships.
     """
 
     entities: list[GraphEntity] = field(default_factory=list)
