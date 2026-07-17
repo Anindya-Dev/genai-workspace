@@ -4,9 +4,17 @@ Knowledge Graph Extractor.
 Responsible for converting UnifiedDocument objects
 into graph entities and relationships using an LLM.
 """
+import json
 
 from backend.normalizer import UnifiedDocument
-from backend.schema import GraphExtractionResult
+from backend.schema import (
+    EntityType,
+    RelationshipType,
+    GraphEntity,
+    GraphRelationship,
+    GraphExtractionResult,
+)
+
 
 
 class GraphExtractor:
@@ -32,22 +40,52 @@ class GraphExtractor:
         Returns:
             GraphExtractionResult
         """
+        prompt = self._build_prompt(document)
 
-        # TODO:
-        # 1. Build prompt
-        # 2. Send prompt to LLM
-        # 3. Parse response
-        # 4. Validate result
+        # TODO: Send prompt to LLM
+         # TODO: Parse response
+        # TODO: Validate result
 
         return GraphExtractionResult()
 
     def _build_prompt(self, document: UnifiedDocument) -> str:
-        """Build the prompt for the LLM."""
-        raise NotImplementedError
+        return f"""
+        You are an enterprise knowledge graph extraction system.
+
+        Extract:
+
+        Entities:
+        - Person
+        - Technology
+        - Organization
+        - Concept
+        - Project
+
+        Relationships:
+        - ADVOCATED_FOR
+        - ARGUED_AGAINST
+        - MIGRATED_FROM
+        - MIGRATED_TO
+        - COMMITTED_CODE
+        - WORKS_ON
+
+        Return ONLY valid JSON.
+
+        Document:
+        {document.content}
+        """
 
     def _parse_response(self, response: str) -> GraphExtractionResult:
-        """Convert the LLM response into graph objects."""
-        raise NotImplementedError
+        """
+        Parse the JSON response from the LLM into graph objects.
+
+        Args:
+            response: JSON string returned by the LLM.
+
+        Returns:
+            GraphExtractionResult containing extracted entities and relationships.
+        """
+        raise NotImplementedError("LLM response parsing will be implemented after the response schema is finalized.")
 
     def _validate_result(
         self,
