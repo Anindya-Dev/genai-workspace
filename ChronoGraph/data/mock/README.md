@@ -75,3 +75,42 @@ python generate_mock_data.py
 ```
 
 The generator uses a fixed random seed, so it produces repeatable fixture data.
+
+## Testing mock ingestion from FastAPI docs
+
+1. Start the backend from the `ChronoGraph` project directory:
+
+   ```powershell
+   uvicorn backend.main:app --reload
+   ```
+
+2. Open the interactive FastAPI docs:
+
+   ```text
+   http://localhost:8000/docs
+   ```
+
+3. Expand `POST /api/ingest/mock`, select **Try it out**, then select
+   **Execute**.
+
+4. Confirm the response returns HTTP `200` and this summary:
+
+   ```json
+   {
+     "normalized_documents": 172,
+     "source_counts": {
+       "slack": 112,
+       "github": 25,
+       "jira": 35
+     },
+     "output_file": ".../data/normalized/unified_data.json"
+   }
+   ```
+
+5. Confirm `data/normalized/unified_data.json` is created or refreshed. The
+   normalized output should contain 172 documents total: 112 Slack messages, 25
+   GitHub pull requests, and 35 Jira tickets.
+
+Verified on FastAPI docs: `POST /api/ingest/mock` returns HTTP `200` with
+`normalized_documents: 172` and source counts of `slack: 112`, `github: 25`,
+and `jira: 35`.

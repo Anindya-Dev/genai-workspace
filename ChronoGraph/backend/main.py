@@ -1,3 +1,5 @@
+from collections import Counter
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -53,9 +55,15 @@ def ingest_mock_data() -> dict:
 
     output_file = NORMALIZED_DATA_DIR / "unified_data.json"
     write_unified_documents(documents, output_file)
+    source_counts = Counter(document.source for document in documents)
 
     return {
         "normalized_documents": len(documents),
+        "source_counts": {
+            "slack": source_counts["slack"],
+            "github": source_counts["github"],
+            "jira": source_counts["jira"],
+        },
         "output_file": str(output_file),
     }
 
