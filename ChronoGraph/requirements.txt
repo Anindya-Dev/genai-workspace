@@ -9,4 +9,5 @@ langchain-neo4j
 llama-index
 llama-index-graph-stores-neo4j
 groq
-
+groq
+python-dotenv

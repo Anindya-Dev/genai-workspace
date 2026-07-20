@@ -10,6 +10,11 @@ from backend.normalizer import (
     write_unified_documents,
 )
 
+import json
+
+from backend.extractor import GraphExtractor
+from backend.normalizer import parse_timestamp
+
 app = FastAPI(title="ChronoGraph API")
 
 app.add_middleware(
@@ -92,3 +97,26 @@ def ingest_mock_data() -> dict:
         "output_file": str(output_file),
     }
 
+@app.post("/api/extract/test")
+def test_extraction():
+    with open(NORMALIZED_DATA_DIR / "unified_data.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    doc = data["documents"][0]
+
+    document = UnifiedDocument(
+        source=doc["source"],
+        doc_id=doc["doc_id"],
+        timestamp=parse_timestamp(doc["timestamp"]),
+        author=doc["author"],
+        content=doc["content"],
+        channel=doc.get("channel"),
+        thread_id=doc.get("thread_id"),
+        url=doc.get("url"),
+    )
+
+    extractor = GraphExtractor()
+
+    extractor.extract(document)
+
+    return {"status": "Extraction completed. Check terminal for LLM output."}
