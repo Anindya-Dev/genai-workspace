@@ -15,7 +15,9 @@ from backend.schema import (
     GraphExtractionResult,
 )
 
+from groq import Groq
 
+from backend.config import GROQ_API_KEY
 
 class GraphExtractor:
     """
@@ -27,10 +29,12 @@ class GraphExtractor:
         Initialize the graph extractor.
 
         TODO:
-        - Initialize Groq client
         - Configure LlamaIndex extraction pipeline
         """
-        pass
+
+        self.client = Groq(api_key=GROQ_API_KEY)
+
+        self.model = "llama-3.3-70b-versatile"
 
     def extract(self, document: UnifiedDocument) -> GraphExtractionResult:
         """
@@ -40,13 +44,42 @@ class GraphExtractor:
         Returns:
             GraphExtractionResult
         """
+
+        # Build prompt
         prompt = self._build_prompt(document)
 
-        # TODO: Send prompt to LLM
-         # TODO: Parse response
-        # TODO: Validate result
+        # Send prompt to the LLM
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            temperature=0,
+        )
 
-        return GraphExtractionResult()
+        llm_output = response.choices[0].message.content.strip()
+
+        if llm_output.startswith("```"):
+            llm_output = llm_output.strip("`")
+
+            if llm_output.startswith("json"):
+                llm_output = llm_output[4:]
+
+            llm_output = llm_output.strip()
+
+        # Print the raw JSON returned by the LLM
+        print(json.dumps(json.loads(llm_output), indent=2))
+
+        # Parse response
+        result = self._parse_response(llm_output)
+
+        # Validate result
+        result = self._validate_result(result)
+
+        return result
 
     def _build_prompt(self, document: UnifiedDocument) -> str:
         return f"""
@@ -69,7 +102,36 @@ class GraphExtractor:
         - COMMITTED_CODE
         - WORKS_ON
 
-        Return ONLY valid JSON.
+        Return ONLY a valid JSON object.
+
+        Do not include:
+        - Markdown
+        - Triple backticks
+        - Explanations
+        - Comments
+        - Any text before or after the JSON
+
+        The response must begin with '{' and end with '}'.
+
+        Use this exact structure:
+
+        {{
+        "entities": [
+            {{
+            "id": "...",
+            "name": "...",
+            "type": "Person"
+            }}
+        ],
+        "relationships": [
+            {{
+            "source": "...",
+            "target": "...",
+            "type": "WORKS_ON",
+            "confidence": 0.95
+            }}
+        ]
+        }}
 
         Document:
         {document.content}
