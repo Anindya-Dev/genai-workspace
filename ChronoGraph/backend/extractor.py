@@ -24,15 +24,22 @@ class GraphExtractor:
     Extracts graph triples from normalized documents.
     """
 
-    def __init__(self):
+    def __init__(self, api_key: str | None = None):
         """
         Initialize the graph extractor.
 
         TODO:
         - Configure LlamaIndex extraction pipeline
         """
+        self.api_key = api_key or GROQ_API_KEY
 
-        self.client = Groq(api_key=GROQ_API_KEY)
+        if not self.api_key:
+            raise ValueError(
+                "GROQ_API_KEY is required for graph extraction. "
+                "Add it to ChronoGraph/.env before using LLM endpoints."
+            )
+
+        self.client = Groq(api_key=self.api_key)
 
         self.model = "llama-3.3-70b-versatile"
 

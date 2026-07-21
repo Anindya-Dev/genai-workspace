@@ -1,4 +1,6 @@
-from fastapi import FastAPI
+import json
+
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
@@ -9,9 +11,6 @@ from backend.normalizer import (
     summarize_documents,
     write_unified_documents,
 )
-
-import json
-
 from backend.extractor import GraphExtractor
 from backend.normalizer import parse_timestamp
 
@@ -99,7 +98,14 @@ def ingest_mock_data() -> dict:
 
 @app.post("/api/extract/test")
 def test_extraction():
-    with open(NORMALIZED_DATA_DIR / "unified_data.json", "r", encoding="utf-8") as f:
+    normalized_file = NORMALIZED_DATA_DIR / "unified_data.json"
+    if not normalized_file.exists():
+        raise HTTPException(
+            status_code=404,
+            detail="Normalized data not found. Run POST /api/ingest/mock first.",
+        )
+
+    with open(normalized_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     doc = data["documents"][0]
@@ -115,7 +121,10 @@ def test_extraction():
         url=doc.get("url"),
     )
 
-    extractor = GraphExtractor()
+    try:
+        extractor = GraphExtractor()
+    except ValueError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
 
     extractor.extract(document)
 
