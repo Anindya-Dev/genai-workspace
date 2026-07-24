@@ -103,6 +103,7 @@ The generator uses a fixed random seed, so it produces repeatable fixture data.
        "github": 25,
        "jira": 35
      },
+     "missing_files": [],
      "output_file": ".../data/normalized/unified_data.json"
    }
    ```
@@ -114,3 +115,25 @@ The generator uses a fixed random seed, so it produces repeatable fixture data.
 Verified on FastAPI docs: `POST /api/ingest/mock` returns HTTP `200` with
 `normalized_documents: 172` and source counts of `slack: 112`, `github: 25`,
 and `jira: 35`.
+
+## Validating normalized ingest output
+
+After running `POST /api/ingest/mock`, validate the generated normalized file
+from the `ChronoGraph` project directory:
+
+```powershell
+python backend/scripts/validate_ingest.py
+```
+
+Expected output:
+
+```text
+Ingestion validation summary
+----------------------------
+Slack documents: 112
+GitHub documents: 25
+Jira documents: 35
+Total documents: 172
+
+Validation passed.
+```

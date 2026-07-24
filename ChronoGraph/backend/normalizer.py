@@ -1,4 +1,5 @@
 from dataclasses import asdict, dataclass
+from collections import Counter
 from datetime import datetime
 import json
 from pathlib import Path
@@ -41,4 +42,10 @@ def write_unified_documents(
         "documents": [document.to_dict() for document in documents],
     }
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+
+
+def summarize_documents(documents: Iterable[UnifiedDocument]) -> dict[str, int]:
+    """Count normalized documents by source."""
+    source_counts = Counter(document.source for document in documents)
+    return dict(sorted(source_counts.items()))
 
