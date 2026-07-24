@@ -96,6 +96,7 @@ def ingest_mock_data() -> dict:
         "output_file": str(output_file),
     }
 
+
 @app.post("/api/extract/test")
 def test_extraction():
     normalized_file = NORMALIZED_DATA_DIR / "unified_data.json"
